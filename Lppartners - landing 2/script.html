@@ -1,0 +1,89 @@
+
+<script>
+$(document).ready(function(){
+
+    var displayPage1 = $("#gform_page_4_1").css("display");
+    var displayPage2 = $("#gform_page_4_2").css("display");
+    var displayPage3 = $("#gform_page_4_3").css("display");
+    var displayPage4 = $("#gform_page_4_4").css("display");
+    var displayPage5 = $("#gform_page_4_5").css("display");
+    var displayPage6 = $("#gform_confirmation_wrapper_1").css("display");
+
+  
+    if(displayPage1 == "block"){
+        $(".barra_de_pasos").css("display","none");
+    }
+
+    if (displayPage2 == "block"){
+        $(".barra_de_pasos").css("display","none");
+    }
+    
+    if (displayPage3 == "block"){
+        $("#wrapper").css("background-color","##5A2D87");
+        $("#primeraSeccion").css("background-color","#5A2D87");
+
+        $(".gform_wrapper.gravity-theme").css("margin-top","-15%");
+        $(".gform_footer").css("margin-top","-15%");
+        $(".gform_wrapper.gravity-theme").css("margin-top","-15%");
+        $(".gform_page_footer").css("margin-top","-15%");
+        $("#gform_fields_1_3").css("margin-top","15%");
+        $(".campo_validacion").append($("#validation_message_1_23").eq(0));
+        $(".gf_progressbar_percentage.percentbar_blue.percentbar_60").css("width","33%");
+        $(".gf_progressbar_percentage.percentbar_blue.percentbar_60").find("span").text("Paso 1");    
+    }
+
+    if (displayPage4 == "block"){
+        $("#wrapper").css("background-color","##5A2D87");
+        $("#primeraSeccion").css("background-color","#5A2D87");
+
+        $(".gform_wrapper.gravity-theme").css("margin-top","-15%");
+        $(".gform_footer").css("margin-top","-15%");
+        $(".gform_wrapper.gravity-theme").css("margin-top","-15%");
+        $(".gform_page_footer").css("margin-top","-15%");
+        $("#gform_fields_1_4").css("margin-top","15%");
+
+        $(".gf_progressbar_percentage.percentbar_blue.percentbar_80").css("width","66%");
+        $(".gf_progressbar_percentage.percentbar_blue.percentbar_80").find("span").text("Paso 2");    
+        
+
+    }
+
+    if (displayPage5 == "block"){
+        $("#wrapper").css("background-color","##5A2D87");
+        $("#primeraSeccion").css("background-color","#5A2D87");
+
+        $(".gform_wrapper.gravity-theme").css("margin-top","-15%");
+        $(".gform_footer").css("margin-top","-15%");
+        $(".gform_wrapper.gravity-theme").css("margin-top","-15%");
+        $(".gform_page_footer").css("margin-top","-15%");
+        $("#gform_fields_1_5").css("margin-top","15%");
+
+        $(".gf_progressbar_percentage.percentbar_blue.percentbar_100").find("span").text("Paso 3");    
+        
+
+    }
+
+    if (displayPage6 == "block"){
+        $("#wrapper").css("background-color","##5A2D87");
+        $("#primeraSeccion").css("background-color","#5A2D87");
+        $("#gform_confirmation_wrapper_1").css("text-align","center");
+        $("#gf_progressbar_wrapper_1").css("display","none");
+        $("#gform_confirmation_wrapper_1").css("margin-top","7%");
+
+        
+
+        
+        
+    }
+
+
+    /* $("#barra_de_pasos").append($("#gf_progressbar_wrapper_1").eq(0)) */
+
+    $(".barra_de_pasos").append($(".gf_progressbar_wrapper").eq(0))
+
+})
+</script>
+
+
+
+

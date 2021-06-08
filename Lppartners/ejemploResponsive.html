@@ -1,0 +1,104 @@
+<style>
+
+
+
+    table {
+      border: 1px solid #fff;
+      border-collapse: collapse;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      table-layout: fixed;
+    }
+    
+    table caption {
+      font-size: 1.5em;
+      margin: .5em 0 .75em;
+    }
+    
+    table tr {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: .35em;
+    }
+    
+    table th,
+    table td {
+      padding: .325em;
+      text-align: center;
+      
+    }
+    
+    table th {
+      font-size: .85em;
+      letter-spacing: .1em;
+      background-color: #00aaff;
+      color:#fff;
+    }
+    
+    @media screen and (max-width: 600px) {
+    
+    
+        .container-table {
+            overflow-x: auto; }
+          
+        table {
+            min-width: 900px;
+         }
+      
+    }
+    
+    
+    </style>
+
+
+
+<div class="container-table">
+    <table>
+        <thead >
+          <tr>
+            <th  scope="col">Grupo</th>
+            <th scope="col">Fecha de inicio de habilitación en el servicio informático electrónico nómina electrónica (DD/MM/AAAA)</th>
+            <th scope="col">Fecha máxima para iniciar con la generación y trasmisión del documento soporte de pago nómina electrónica y de las notas de ajuste del documento soporte pago de nómina electrónica (DD/MM/AAAA)</th>
+            <th   scope="col" colspan="2">Intervalo en relación con el número de empleados</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="head-tbl" style="background-color: #fff;">
+              <td  data-label="Grupo"></td>
+              <td data-label="GruFecha de inicio de habilitación en el servicio informático electrónico nómina electrónica (DD/MM/AAAA)po"></td>
+              <td data-label="Fecha máxima para iniciar con la generación y trasmisión del documento soporte de pago nómina electrónica y de las notas de ajuste del documento soporte pago de nómina electrónica (DD/MM/AAAA)"></td>
+              <td   data-label="Desde">Desde</td>
+              <td   data-label="Hasta">Hasta</td>
+            </tr>
+          <tr style="background-color: #f1f4f9">
+            <td  data-label="Grupo">1</td>
+            <td data-label="GruFecha de inicio de habilitación en el servicio informático electrónico nómina electrónica (DD/MM/AAAA)po">31/08/2021</td>
+            <td data-label="Fecha máxima para iniciar con la generación y trasmisión del documento soporte de pago nómina electrónica y de las notas de ajuste del documento soporte pago de nómina electrónica (DD/MM/AAAA)">01/09/2021</td>
+            <td  data-label="Desde - Hasta" colspan="2" >Más de 251</td>
+          </tr>
+          <tr style="background-color: #fff;">
+              <td  data-label="Grupo">2</td>
+              <td data-label="GruFecha de inicio de habilitación en el servicio informático electrónico nómina electrónica (DD/MM/AAAA)po">31/08/2021</td>
+              <td data-label="Fecha máxima para iniciar con la generación y trasmisión del documento soporte de pago nómina electrónica y de las notas de ajuste del documento soporte pago de nómina electrónica (DD/MM/AAAA)">01/10/2021</td>
+              <td   data-label="Desde">101</td>
+              <td   data-label="Hasta">250</td>
+            </tr>
+            <tr style="background-color: #f1f4f9;">  
+              <td  data-label="Grupo">3</td>
+              <td data-label="GruFecha de inicio de habilitación en el servicio informático electrónico nómina electrónica (DD/MM/AAAA)po">31/08/2021</td>
+              <td data-label="Fecha máxima para iniciar con la generación y trasmisión del documento soporte de pago nómina electrónica y de las notas de ajuste del documento soporte pago de nómina electrónica (DD/MM/AAAA)">01/11/2021</td>
+              <td   data-label="Desde">11</td>
+              <td   data-label="Hasta">100</td>
+            </tr>
+            <tr style="background-color: #fff;">
+              <td  data-label="Grupo">4</td>
+              <td data-label="GruFecha de inicio de habilitación en el servicio informático electrónico nómina electrónica (DD/MM/AAAA)po">31/08/2021</td>
+              <td data-label="Fecha máxima para iniciar con la generación y trasmisión del documento soporte de pago nómina electrónica y de las notas de ajuste del documento soporte pago de nómina electrónica (DD/MM/AAAA)">01/12/2021</td>
+              <td   data-label="Desde">1</td>
+              <td   data-label="Hasta">10</td>
+            </tr>
+           
+        </tbody>
+      </table>
+</div>
